@@ -18,28 +18,8 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stools.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ScriptObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="msscript_h.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="stools.c">
+    <ClCompile Include="TestSc.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ScriptObject.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="msscript_i.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Midl Include="msscript.IDL" />
   </ItemGroup>
 </Project>
